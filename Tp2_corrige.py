@@ -1,3 +1,6 @@
+from collections import namedtuple
+import altair as alt
+import math
 import streamlit as st
 import pandas as pd
 from sklearn.svm import SVC
